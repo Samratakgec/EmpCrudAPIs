@@ -14,4 +14,13 @@ public class EmployeeEntity {
     private String name ;
     private String phone ;
     private String email ;
+    private Double salary ;
+
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
+
+    public Double getSalary() {
+        return salary;
+    }
 }
