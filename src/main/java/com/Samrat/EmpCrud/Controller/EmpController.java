@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 public class EmpController {
-    @Autowired
+    @Autowired //dependency injection
     EmpServiceImpl empService ;
     @PostMapping("emp")
     String create(@RequestBody Employee employee)
